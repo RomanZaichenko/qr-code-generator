@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import url("http://fonts.cdnfonts.com/css/lilly");
+.App {
+    @apply flex flex-col justify-center items-center gap-[50px] pt-[30px];
+}
+h1 {
+    @apply text-[50px];
+    font-family: "Lilly", sans-serif;
+}
+.gen input {
+    @apply h-[35px] w-[250px] text-xl pl-[5px];
+}
+button {
+    @apply relative h-[38px] w-[100px] text-lg text-[whitesmoke] bg-[forestgreen] shadow-[2px_2px_5px_rgb(74,182,74)] cursor-pointer border-[none] -top-0.5 active:shadow-none;
+}
+.extra {
+    @apply flex justify-around gap-2.5 pt-5;
+}
+.output-box {
+    @apply flex flex-col items-center gap-10;
+}
